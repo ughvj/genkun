@@ -1,0 +1,158 @@
+[
+  {
+    "statement": "初代内閣総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "src": "/genkuns/itou_hirobumi.jpg",
+        "caption": "伊藤博文",
+        "correct": true
+      },
+      {
+        "src": "/genkuns/ookubo_toshimichi.jpg",
+        "caption": "大久保利通",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/saigou_takamori.jpg",
+        "caption": "西郷隆盛",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/kido_takayoshi.jpg",
+        "caption": "木戸孝允",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "statement": "「平民宰相」の異名を取った総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "src": "/genkuns/terauchi_masatake.jpg",
+        "caption": "寺内正毅",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/hara_takashi.jpg",
+        "caption": "原敬",
+        "correct": true
+      },
+      {
+        "src": "/genkuns/takahashi_korekiyo.jpg",
+        "caption": "高橋是清",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/katou_tomosaburou.jpg",
+        "caption": "加藤友三郎",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "statement": "総理大臣就任が早い順に選択せよ",
+    "category": "order",
+    "options": [
+      {
+        "src": "/genkuns/itou_hirobumi.jpg",
+        "caption": "伊藤博文",
+        "correct": 1
+      },
+      {
+        "src": "/genkuns/kuroda_kiyotaka.jpg",
+        "caption": "黒田清隆",
+        "correct": 2
+      },
+      {
+        "src": "/genkuns/yamagata_aritomo.jpg",
+        "caption": "山縣有朋",
+        "correct": 3
+      },
+      {
+        "src": "/genkuns/matsukata_masayoshi.jpg",
+        "caption": "松方正義",
+        "correct": 4
+      }
+    ]
+  },
+  {
+    "statement": "「欧州情勢は複雑怪奇」との迷言で知られ、枢密院議長を2度務めたこともある第35代総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "src": "/genkuns/hirota_kouki.jpg",
+        "caption": "廣田弘毅",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/hiranuma_kiichirou.jpg",
+        "caption": "平沼騏一郎",
+        "correct": true
+      },
+      {
+        "src": "/genkuns/hayashi_senjuurou.jpg",
+        "caption": "林銑十郎",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/konoe_fumimaro.jpg",
+        "caption": "近衛文麿",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "statement": "五・一五事件により、在職中に暗殺された総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "src": "/genkuns/wakatsuki_reijirou.jpg",
+        "caption": "若槻禮次郎",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/inukai_tsuyoshi.jpg",
+        "caption": "犬養毅",
+        "correct": true
+      },
+      {
+        "src": "/genkuns/saitou_makoto.jpg",
+        "caption": "斎藤實",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/okada_keisuke.jpg",
+        "caption": "岡田啓介",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "statement": "東京裁判においてA級戦犯(平和に対する罪)とされた唯一の文官でもある、第32代総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "src": "/genkuns/suzuki_kantarou.jpg",
+        "caption": "鈴木貫太郎",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/toujou_hideki.jpg",
+        "caption": "東條英機",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/konoe_fumimaro.jpg",
+        "caption": "近衛文麿",
+        "correct": false
+      },
+      {
+        "src": "/genkuns/hirota_kouki.jpg",
+        "caption": "廣田弘毅",
+        "correct": true
+      }
+    ]
+  }
+]
