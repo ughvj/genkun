@@ -29,7 +29,7 @@
     />
   </p>
   <p><button @click="register">登録</button></p>
-  <InformationMessage :text="message" />
+  <AdminInformationMessage :text="message" />
 </template>
 
 <script setup>
@@ -41,11 +41,14 @@ const message = ref("");
 const register = async () => {
   await $fetch("http://localhost:2434/genkun", {
     method: "POST",
-    body: new URLSearchParams({
-      genkun_name_kanji: genkunNameKanji.value,
-      genkun_name_hiragana: genkunNameHiragana.value,
-      genkun_src: genkunSrc.value,
-    }),
+    body: {
+      name_kanji: genkunNameKanji.value,
+      name_yomi_hiragana: genkunNameHiragana.value,
+      src: genkunSrc.value,
+    },
+    headers: {
+      "Content-Type": "application/json",
+    },
   }).then((res) => {
     message.value = res.message;
   });

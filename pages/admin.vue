@@ -1,6 +1,6 @@
 <template>
   <div class="main-area">
-    <PostGenkun />
+    <AdminPostGenkun />
   </div>
 </template>
 
