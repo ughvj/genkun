@@ -1,41 +1,122 @@
 <template>
-  <div class="block md:hidden">
-    <button @click="toggleMenu">
-      <svg
-        class="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16"
-        ></path>
-      </svg>
-    </button>
+  <div>
+    <img
+      src="/abstracts/hamburger.png"
+      @click="toggleMenu"
+      class="hamburger-icon"
+    />
 
-    <div
-      v-if="showMenu"
-      class="fixed inset-0 flex flex-col items-center justify-center bg-gray-900 bg-opacity-75"
-    >
+    <nav :class="{ open: isOpen }" class="side-menu">
+      <div class="symbol-container">
+        <img src="/logo.jpg" />
+        <div class="close-area" @click="toggleMenu">
+          <div class="close-button"></div>
+        </div>
+      </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/">aaaaaaaaaaaaaaaaaaaaaaaa</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
 
-const showMenu = ref(false);
+const isOpen = ref(false);
 
 const toggleMenu = () => {
-  showMenu.value = !showMenu.value;
+  isOpen.value = !isOpen.value;
 };
 </script>
+
+<style scoped>
+.hamburger-icon {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+}
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -100%; /* メニューを左側に隠す */
+  width: fit-content;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease; /* アニメーションでスライド */
+  z-index: 5;
+}
+
+.side-menu.open {
+  left: 0; /* メニューが開いたときに表示 */
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.side-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.symbol-container {
+  display: flex; /* フレックスボックスでレイアウト */
+  align-items: center; /* 縦方向に中央揃え */
+  justify-content: space-between; /* 左右に要素を配置 */
+}
+
+.symbol-container img {
+  max-height: 30px;
+  margin-top: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.close-area {
+  display: flex; /* フレックスボックスでレイアウト */
+  align-items: center; /* 縦方向に中央揃え */
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.close-button {
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+
+.close-button::before,
+.close-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+  transform-origin: center;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-button::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+</style>

@@ -65,8 +65,8 @@ const onClick = (event) => {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50%;
 }
+
 .image:hover {
   transform: translateY(-10px); /* 上に10px浮かせる */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 影をつけて浮いているように見せる */
@@ -97,5 +97,23 @@ const onClick = (event) => {
   height: auto;
   object-fit: contain;
   opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+  .overlay {
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.5;
+    width: 70%;
+  }
+
+  .overlay_ans {
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.7;
+    width: 70%;
+  }
 }
 </style>

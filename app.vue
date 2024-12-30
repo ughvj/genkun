@@ -8,7 +8,7 @@
 
 <style scoped>
 .root-container {
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 90vh;
+  min-width: 90vw;
 }
 </style>

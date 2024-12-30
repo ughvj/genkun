@@ -4,8 +4,7 @@
     :eventX="clickedX"
     :eventY="clickedY"
   />
-  <NextButton @click="nextQuestion" />
-  <ScoreDisplay :denominator="totalQuestions" :numerator="correctedQuestions" />
+
   <div class="statement-area">
     <TypingEffect
       :text="currentQuestion.statement"
@@ -23,6 +22,9 @@
       />
     </div>
   </div>
+  <div class="control-area">
+    <NextButton :visible="terminated" @click="nextQuestion" />
+  </div>
 </template>
 
 <script setup>
@@ -37,11 +39,13 @@ const currentQuestion = ref(data.value[0]);
 
 const correctedQuestions = ref(0);
 const totalQuestions = ref(1);
+const terminated = ref(false);
 
 const nextQuestion = () => {
   currentQuestionIndex.value++;
   totalQuestions.value++;
   currentQuestion.value = data.value[currentQuestionIndex.value];
+  terminated.value = false;
 };
 
 const ignitionConfetti = ref(false);
@@ -57,6 +61,7 @@ const examineResult = (event, correct) => {
     clickedX.value = event.clientX;
     clickedY.value = event.clientY;
   }
+  terminated.value = true;
 };
 
 const questionInfos = ref({
@@ -72,12 +77,17 @@ const questionInfos = ref({
 <style scoped>
 .statement-area {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   text-align: center;
 }
 
 .options-area {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.control-area {
+  display: flex;
+  justify-content: center;
 }
 </style>

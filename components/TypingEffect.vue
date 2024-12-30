@@ -1,4 +1,3 @@
-import type { NEW_PROJECT_DEFAULT_CONTEXT } from 'aws-cdk-lib/cx-api';
 <!-- template -->
 <template>
   <div class="typing-effect">
@@ -9,8 +8,6 @@ import type { NEW_PROJECT_DEFAULT_CONTEXT } from 'aws-cdk-lib/cx-api';
 
 <!-- script -->
 <script setup>
-import { ref, onMounted } from "vue";
-
 const props = defineProps({
   text: {
     type: String, // 文字列型

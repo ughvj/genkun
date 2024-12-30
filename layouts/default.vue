@@ -23,7 +23,7 @@
   box-sizing: border-box; /* padding を幅に含む */
   display: flex; /* フレックスボックスでレイアウト */
   align-items: center; /* 縦方向に中央揃え */
-  justify-content: space-between; /* 左右に要素を配置 */
+  justify-content: left; /* 左右に要素を配置 */
   z-index: 1000; /* 前面に表示 */
   overflow: hidden; /* 子要素がはみ出さないようにする */
 }
@@ -35,7 +35,7 @@
 .main-container {
   margin-top: 60px;
   padding: 10px;
-  min-width: 100vh;
-  min-height: 100vh;
+  min-width: 90vw;
+  min-height: 90vh;
 }
 </style>

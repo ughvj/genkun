@@ -46,6 +46,5 @@ const overlay = (correct) => {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100vh;
 }
 </style>
