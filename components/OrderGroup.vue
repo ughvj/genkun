@@ -88,6 +88,5 @@ const selector = (event, index) => {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100vh;
 }
 </style>

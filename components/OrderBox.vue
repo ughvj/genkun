@@ -24,4 +24,12 @@ const onClick = (event) => {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 1024px) {
+  .order-box {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+}
 </style>
