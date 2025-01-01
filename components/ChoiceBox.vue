@@ -27,13 +27,12 @@ const onClick = (event) => {
 .choice-box {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1025px) {
   .choice-box {
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    width: fit-content;
   }
 }
 </style>

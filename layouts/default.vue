@@ -33,9 +33,8 @@
 }
 
 .main-container {
-  margin-top: 60px;
-  padding: 10px;
-  min-width: 90vw;
-  min-height: 90vh;
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
 }
 </style>

@@ -76,18 +76,18 @@ const questionInfos = ref({
 
 <style scoped>
 .statement-area {
-  margin-top: 30px;
-  margin-bottom: 120px;
+  height: 18%;
   text-align: center;
 }
 
 .options-area {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  height: 70%;
 }
 
 .control-area {
+  height: 12%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 </style>

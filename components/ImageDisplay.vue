@@ -67,13 +67,8 @@ const onClick = (event) => {
   flex-direction: column;
 }
 
-.image:hover {
-  transform: translateY(-10px); /* 上に10px浮かせる */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 影をつけて浮いているように見せる */
-}
-
 .image {
-  max-width: 100%;
+  width: 60%;
   height: auto;
   object-fit: contain;
 }
@@ -83,6 +78,7 @@ const onClick = (event) => {
   font-size: 16px;
   color: #333;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .overlay {
@@ -90,6 +86,7 @@ const onClick = (event) => {
   height: auto;
   object-fit: contain;
   opacity: 0.5;
+  width: 50%;
 }
 
 .overlay_ans {
@@ -97,23 +94,25 @@ const onClick = (event) => {
   height: auto;
   object-fit: contain;
   opacity: 0.7;
+  width: 50%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1025px) {
+  .image {
+    width: 100%;
+  }
+
   .overlay {
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    opacity: 0.5;
-    width: 70%;
+    width: fit-content;
   }
 
   .overlay_ans {
-    position: absolute;
-    height: auto;
-    object-fit: contain;
-    opacity: 0.7;
-    width: 70%;
+    width: fit-content;
+  }
+
+  .image:hover {
+    transform: translateY(-10px); /* 上に10px浮かせる */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* 影をつけて浮いているように見せる */
   }
 }
 </style>

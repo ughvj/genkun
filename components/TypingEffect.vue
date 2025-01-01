@@ -55,7 +55,6 @@ onMounted(() => {
 <!-- style -->
 <style scoped>
 .typing-effect {
-  width: 100%;
   font-family: monospace;
   font-size: 1.5rem;
   white-space: pre-wrap;
@@ -66,7 +65,7 @@ onMounted(() => {
   background-color: black;
   color: transparent;
   width: 8px;
-  height: 1.5rem;
+  height: 2rem;
   margin-left: 2px;
 }
 
