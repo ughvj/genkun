@@ -6,7 +6,7 @@
       @terminate="terminator"
     >
       <ImageDisplay
-        :src="`/genkuns/${choice.src}`"
+        :src="`${choice.src}`"
         :caption="choice.caption"
         :overlay="overlay(choice.correct)"
       />

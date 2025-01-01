@@ -31,11 +31,12 @@
 import TypingEffect from "~/components/TypingEffect.vue";
 import ChoiceGroup from "~/components/ChoiceGroup.vue";
 import OrderGroup from "~/components/OrderGroup.vue";
+import questions from "~/questions.json";
 
 const { data } = await useFetch("http://localhost:2434/questions");
 
 const currentQuestionIndex = ref(0);
-const currentQuestion = ref(data.value[0]);
+const currentQuestion = ref(questions[0]);
 
 const correctedQuestions = ref(0);
 const totalQuestions = ref(1);
