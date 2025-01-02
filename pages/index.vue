@@ -45,7 +45,8 @@ const terminated = ref(false);
 const nextQuestion = () => {
   currentQuestionIndex.value++;
   totalQuestions.value++;
-  currentQuestion.value = data.value[currentQuestionIndex.value];
+  // currentQuestion.value = data.value[currentQuestionIndex.value];
+  currentQuestion.value = questions.value[currentQuestionIndex.value];
   terminated.value = false;
 };
 
@@ -54,7 +55,6 @@ const clickedX = ref(0);
 const clickedY = ref(0);
 
 const examineResult = (event, correct) => {
-  console.log(data.value[0].statement);
   if (correct) {
     correctedQuestions.value++;
 
