@@ -46,7 +46,7 @@ const nextQuestion = () => {
   currentQuestionIndex.value++;
   totalQuestions.value++;
   // currentQuestion.value = data.value[currentQuestionIndex.value];
-  currentQuestion.value = questions.value[currentQuestionIndex.value];
+  currentQuestion.value = questions[currentQuestionIndex.value];
   terminated.value = false;
 };
 
