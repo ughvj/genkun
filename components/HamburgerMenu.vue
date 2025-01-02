@@ -14,10 +14,9 @@
         </div>
       </div>
       <ul>
-        <li><a href="/">aaaaaaaaaaaaaaaaaaaaaaaa</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/?q=10">10問</a></li>
+        <li><a href="/?q=30">30問</a></li>
+        <li><a href="/?q=50">50問 </a></li>
       </ul>
     </nav>
   </div>
@@ -44,6 +43,7 @@ const toggleMenu = () => {
   top: 0;
   left: -100%; /* メニューを左側に隠す */
   width: fit-content;
+  min-width: 17vw;
   height: 100%;
   background-color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
@@ -63,7 +63,7 @@ const toggleMenu = () => {
 
 .side-menu li {
   padding: 20px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #eee;
 }
 

@@ -7,15 +7,17 @@
 
   <div class="statement-area">
     <TypingEffect
+      v-if="questions"
       :text="currentQuestion.statement"
-      :key="currentQuestionIndex"
+      :key="totalQuestions"
     />
   </div>
   <div class="options-area">
     <div>
       <component
+        v-if="questions"
         :is="questionInfos[currentQuestion.category].component"
-        :key="currentQuestionIndex"
+        :key="totalQuestions"
         :choices="currentQuestion.options"
         :orders="currentQuestion.options"
         @examineResult="examineResult"
@@ -23,7 +25,15 @@
     </div>
   </div>
   <div class="control-area">
-    <NextButton :visible="terminated" @click="nextQuestion" />
+    <NextButton
+      v-if="questions"
+      :visible="
+        !terminated &&
+        answered &&
+        totalQuestions + 1 != (route.query.q ?? questions.length)
+      "
+      @click="nextQuestion"
+    />
   </div>
 </template>
 
@@ -31,28 +41,37 @@
 import TypingEffect from "~/components/TypingEffect.vue";
 import ChoiceGroup from "~/components/ChoiceGroup.vue";
 import OrderGroup from "~/components/OrderGroup.vue";
-import questions from "~/questions.json";
+import qs from "~/questions.json";
 
-const { data } = await useFetch("http://localhost:2434/questions");
+const route = useRoute();
 
-const currentQuestionIndex = ref(0);
-const currentQuestion = ref(questions[0]);
+const questions = ref(null);
+const currentQuestion = ref(null);
 
 const correctedQuestions = ref(0);
-const totalQuestions = ref(1);
-const terminated = ref(false);
+const totalQuestions = ref(0);
 
-const nextQuestion = () => {
-  currentQuestionIndex.value++;
-  totalQuestions.value++;
-  // currentQuestion.value = data.value[currentQuestionIndex.value];
-  currentQuestion.value = questions[currentQuestionIndex.value];
-  terminated.value = false;
-};
+const terminated = ref(false);
+const answered = ref(false);
 
 const ignitionConfetti = ref(false);
 const clickedX = ref(0);
 const clickedY = ref(0);
+
+const questionInfos = ref({
+  choice: {
+    component: shallowRef(ChoiceGroup),
+  },
+  order: {
+    component: shallowRef(OrderGroup),
+  },
+});
+
+const nextQuestion = () => {
+  totalQuestions.value++;
+  currentQuestion.value = questions.value[totalQuestions.value];
+  answered.value = false;
+};
 
 const examineResult = (event, correct) => {
   if (correct) {
@@ -62,16 +81,23 @@ const examineResult = (event, correct) => {
     clickedX.value = event.clientX;
     clickedY.value = event.clientY;
   }
-  terminated.value = true;
+
+  if (questions.value.length == totalQuestions.value) {
+    terminated.value = true;
+  }
+  answered.value = true;
 };
 
-const questionInfos = ref({
-  choice: {
-    component: ChoiceGroup,
-  },
-  order: {
-    component: OrderGroup,
-  },
+onMounted(async () => {
+  await $fetch("http://localhost:2434/questions", {})
+    .then((res) => {
+      questions.value = getShuffledQuestions(res);
+      currentQuestion.value = questions.value[0];
+    })
+    .catch(() => {
+      questions.value = getShuffledQuestions(qs);
+      currentQuestion.value = questions.value[0];
+    });
 });
 </script>
 
@@ -82,11 +108,9 @@ const questionInfos = ref({
 }
 
 .options-area {
-  height: 70%;
 }
 
 .control-area {
-  height: 12%;
   display: flex;
   justify-content: center;
   align-items: center;

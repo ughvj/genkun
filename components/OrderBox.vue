@@ -26,7 +26,7 @@ const onClick = (event) => {
   width: 50%;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .order-box {
     width: fit-content;
   }

@@ -4,22 +4,22 @@
     "category": "choice",
     "options": [
       {
-        "src": "/genkuns/itou_hirobumi.jpg",
+        "src": "itou_hirobumi.jpg",
         "caption": "伊藤博文",
         "correct": true
       },
       {
-        "src": "/genkuns/ookubo_toshimichi.jpg",
+        "src": "ookubo_toshimichi.jpg",
         "caption": "大久保利通",
         "correct": false
       },
       {
-        "src": "/genkuns/saigou_takamori.jpg",
+        "src": "saigou_takamori.jpg",
         "caption": "西郷隆盛",
         "correct": false
       },
       {
-        "src": "/genkuns/kido_takayoshi.jpg",
+        "src": "kido_takayoshi.jpg",
         "caption": "木戸孝允",
         "correct": false
       }
@@ -30,22 +30,22 @@
     "category": "choice",
     "options": [
       {
-        "src": "/genkuns/terauchi_masatake.jpg",
+        "src": "terauchi_masatake.jpg",
         "caption": "寺内正毅",
         "correct": false
       },
       {
-        "src": "/genkuns/hara_takashi.jpg",
+        "src": "hara_takashi.jpg",
         "caption": "原敬",
         "correct": true
       },
       {
-        "src": "/genkuns/takahashi_korekiyo.jpg",
+        "src": "takahashi_korekiyo.jpg",
         "caption": "高橋是清",
         "correct": false
       },
       {
-        "src": "/genkuns/katou_tomosaburou.jpg",
+        "src": "katou_tomosaburou.jpg",
         "caption": "加藤友三郎",
         "correct": false
       }
@@ -56,22 +56,22 @@
     "category": "order",
     "options": [
       {
-        "src": "/genkuns/itou_hirobumi.jpg",
+        "src": "itou_hirobumi.jpg",
         "caption": "伊藤博文",
         "correct": 1
       },
       {
-        "src": "/genkuns/kuroda_kiyotaka.jpg",
+        "src": "kuroda_kiyotaka.jpg",
         "caption": "黒田清隆",
         "correct": 2
       },
       {
-        "src": "/genkuns/yamagata_aritomo.jpg",
+        "src": "yamagata_aritomo.jpg",
         "caption": "山縣有朋",
         "correct": 3
       },
       {
-        "src": "/genkuns/matsukata_masayoshi.jpg",
+        "src": "matsukata_masayoshi.jpg",
         "caption": "松方正義",
         "correct": 4
       }
@@ -82,22 +82,22 @@
     "category": "choice",
     "options": [
       {
-        "src": "/genkuns/hirota_kouki.jpg",
+        "src": "hirota_kouki.jpg",
         "caption": "廣田弘毅",
         "correct": false
       },
       {
-        "src": "/genkuns/hiranuma_kiichirou.jpg",
+        "src": "hiranuma_kiichirou.jpg",
         "caption": "平沼騏一郎",
         "correct": true
       },
       {
-        "src": "/genkuns/hayashi_senjuurou.jpg",
+        "src": "hayashi_senjuurou.jpg",
         "caption": "林銑十郎",
         "correct": false
       },
       {
-        "src": "/genkuns/konoe_fumimaro.jpg",
+        "src": "konoe_fumimaro.jpg",
         "caption": "近衛文麿",
         "correct": false
       }
@@ -108,22 +108,22 @@
     "category": "choice",
     "options": [
       {
-        "src": "/genkuns/wakatsuki_reijirou.jpg",
+        "src": "wakatsuki_reijirou.jpg",
         "caption": "若槻禮次郎",
         "correct": false
       },
       {
-        "src": "/genkuns/inukai_tsuyoshi.jpg",
+        "src": "inukai_tsuyoshi.jpg",
         "caption": "犬養毅",
         "correct": true
       },
       {
-        "src": "/genkuns/saitou_makoto.jpg",
+        "src": "saitou_makoto.jpg",
         "caption": "斎藤實",
         "correct": false
       },
       {
-        "src": "/genkuns/okada_keisuke.jpg",
+        "src": "okada_keisuke.jpg",
         "caption": "岡田啓介",
         "correct": false
       }
@@ -134,22 +134,22 @@
     "category": "choice",
     "options": [
       {
-        "src": "/genkuns/suzuki_kantarou.jpg",
+        "src": "suzuki_kantarou.jpg",
         "caption": "鈴木貫太郎",
         "correct": false
       },
       {
-        "src": "/genkuns/toujou_hideki.jpg",
+        "src": "toujou_hideki.jpg",
         "caption": "東條英機",
         "correct": false
       },
       {
-        "src": "/genkuns/konoe_fumimaro.jpg",
+        "src": "konoe_fumimaro.jpg",
         "caption": "近衛文麿",
         "correct": false
       },
       {
-        "src": "/genkuns/hirota_kouki.jpg",
+        "src": "hirota_kouki.jpg",
         "caption": "廣田弘毅",
         "correct": true
       }

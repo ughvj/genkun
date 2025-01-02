@@ -32,7 +32,7 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   src: {
     type: String,
     required: true,
@@ -97,7 +97,7 @@ const onClick = (event) => {
   width: 50%;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .image {
     width: 100%;
   }

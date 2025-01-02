@@ -7,7 +7,7 @@
       @select="selector"
     >
       <ImageDisplay
-        :src="`${order.src}`"
+        :src="`genkuns/${order.src}`"
         :caption="order.caption"
         :overlay="String(states[index].currentOrder)"
         :overlay_ans="states[index].overlayAns"

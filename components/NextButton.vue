@@ -32,6 +32,7 @@ const onClick = () => {
   cursor: pointer; /* ポインタカーソルを表示 */
   transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* ホバー時のアニメーション */
   width: 100px;
+  z-index: 100;
 }
 
 /* ホバー時のスタイル */
