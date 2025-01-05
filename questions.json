@@ -10,9 +10,9 @@
         "src": "ookubo_toshimichi.jpg"
       },
       {
-        "correct": true,
-        "caption": "伊藤博文",
-        "src": "itou_hirobumi.jpg"
+        "correct": false,
+        "caption": "西郷隆盛",
+        "src": "saigou_takamori.jpg"
       },
       {
         "correct": false,
@@ -20,9 +20,9 @@
         "src": "kido_takayoshi.jpg"
       },
       {
-        "correct": false,
-        "caption": "西郷隆盛",
-        "src": "saigou_takamori.jpg"
+        "correct": true,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
       }
     ]
   },
@@ -60,13 +60,13 @@
     "options": [
       {
         "correct": false,
-        "caption": "林銑十郎",
-        "src": "hayashi_senjuurou.jpg"
+        "caption": "近衛文麿",
+        "src": "konoe_fumimaro.jpg"
       },
       {
         "correct": false,
-        "caption": "近衛文麿",
-        "src": "konoe_fumimaro.jpg"
+        "caption": "廣田弘毅",
+        "src": "hirota_kouki.jpg"
       },
       {
         "correct": true,
@@ -75,8 +75,8 @@
       },
       {
         "correct": false,
-        "caption": "廣田弘毅",
-        "src": "hirota_kouki.jpg"
+        "caption": "林銑十郎",
+        "src": "hayashi_senjuurou.jpg"
       }
     ]
   },
@@ -114,13 +114,13 @@
     "options": [
       {
         "correct": false,
-        "caption": "東條英機",
-        "src": "toujou_hideki.jpg"
+        "caption": "吉田茂",
+        "src": "yoshida_shigeru.jpg"
       },
       {
         "correct": false,
-        "caption": "吉田茂",
-        "src": "yoshida_shigeru.jpg"
+        "caption": "東條英機",
+        "src": "toujou_hideki.jpg"
       },
       {
         "correct": true,
@@ -140,11 +140,6 @@
     "category": "choice",
     "options": [
       {
-        "correct": true,
-        "caption": "西園寺公望",
-        "src": "saionji_kinmochi.jpg"
-      },
-      {
         "correct": false,
         "caption": "松方正義",
         "src": "matsukata_masayoshi.jpg"
@@ -158,6 +153,11 @@
         "correct": false,
         "caption": "山縣有朋",
         "src": "yamagata_aritomo.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "西園寺公望",
+        "src": "saionji_kinmochi.jpg"
       }
     ]
   },
@@ -200,8 +200,8 @@
       },
       {
         "correct": false,
-        "caption": "加藤高明",
-        "src": "katou_takaaki.jpg"
+        "caption": "若槻禮次郎",
+        "src": "wakatsuki_reijirou.jpg"
       },
       {
         "correct": true,
@@ -210,8 +210,8 @@
       },
       {
         "correct": false,
-        "caption": "若槻禮次郎",
-        "src": "wakatsuki_reijirou.jpg"
+        "caption": "加藤高明",
+        "src": "katou_takaaki.jpg"
       }
     ]
   },
@@ -222,8 +222,13 @@
     "options": [
       {
         "correct": false,
-        "caption": "松方正義",
-        "src": "matsukata_masayoshi.jpg"
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "黒田清隆",
+        "src": "kuroda_kiyotaka.jpg"
       },
       {
         "correct": false,
@@ -232,13 +237,8 @@
       },
       {
         "correct": false,
-        "caption": "伊藤博文",
-        "src": "itou_hirobumi.jpg"
-      },
-      {
-        "correct": true,
-        "caption": "黒田清隆",
-        "src": "kuroda_kiyotaka.jpg"
+        "caption": "松方正義",
+        "src": "matsukata_masayoshi.jpg"
       }
     ]
   },
@@ -247,6 +247,11 @@
     "statement": "二・二六事件で襲撃されたが、奇跡的に生き残った当時の総理大臣は誰？",
     "category": "choice",
     "options": [
+      {
+        "correct": false,
+        "caption": "廣田弘毅",
+        "src": "hirota_kouki.jpg"
+      },
       {
         "correct": false,
         "caption": "犬養毅",
@@ -261,11 +266,6 @@
         "correct": true,
         "caption": "岡田啓介",
         "src": "okada_keisuke.jpg"
-      },
-      {
-        "correct": false,
-        "caption": "廣田弘毅",
-        "src": "hirota_kouki.jpg"
       }
     ]
   },
@@ -330,8 +330,13 @@
     "options": [
       {
         "correct": false,
-        "caption": "津田梅子",
-        "src": "tsuda_umeko.jpg"
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "福沢諭吉",
+        "src": "fukuzawa_yukichi.jpg"
       },
       {
         "correct": true,
@@ -340,13 +345,8 @@
       },
       {
         "correct": false,
-        "caption": "伊藤博文",
-        "src": "itou_hirobumi.jpg"
-      },
-      {
-        "correct": false,
-        "caption": "福沢諭吉",
-        "src": "fukuzawa_yukichi.jpg"
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
       }
     ]
   },
@@ -357,13 +357,8 @@
     "options": [
       {
         "correct": false,
-        "caption": "伊藤博文",
-        "src": "itou_hirobumi.jpg"
-      },
-      {
-        "correct": true,
-        "caption": "福沢諭吉",
-        "src": "fukuzawa_yukichi.jpg"
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
       },
       {
         "correct": false,
@@ -372,8 +367,13 @@
       },
       {
         "correct": false,
-        "caption": "津田梅子",
-        "src": "tsuda_umeko.jpg"
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "福沢諭吉",
+        "src": "fukuzawa_yukichi.jpg"
       }
     ]
   },
@@ -383,9 +383,14 @@
     "category": "choice",
     "options": [
       {
+        "correct": true,
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
+      },
+      {
         "correct": false,
-        "caption": "山縣有朋",
-        "src": "yamagata_aritomo.jpg"
+        "caption": "西郷隆盛",
+        "src": "saigou_takamori.jpg"
       },
       {
         "correct": false,
@@ -394,13 +399,8 @@
       },
       {
         "correct": false,
-        "caption": "西郷隆盛",
-        "src": "saigou_takamori.jpg"
-      },
-      {
-        "correct": true,
-        "caption": "津田梅子",
-        "src": "tsuda_umeko.jpg"
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
       }
     ]
   },
@@ -411,13 +411,8 @@
     "options": [
       {
         "correct": false,
-        "caption": "伊藤博文",
-        "src": "itou_hirobumi.jpg"
-      },
-      {
-        "correct": false,
-        "caption": "原敬",
-        "src": "hara_takashi.jpg"
+        "caption": "大隈重信",
+        "src": "ookuma_shigenobu.jpg"
       },
       {
         "correct": true,
@@ -426,8 +421,13 @@
       },
       {
         "correct": false,
-        "caption": "大隈重信",
-        "src": "ookuma_shigenobu.jpg"
+        "caption": "原敬",
+        "src": "hara_takashi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
       }
     ]
   },
@@ -455,6 +455,33 @@
         "correct": false,
         "caption": "山本権兵衛",
         "src": "yamamoto_gonbee.jpg"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "statement": "岩倉使節団のメンバーではなかったのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "大久保利通",
+        "src": "ookubo_toshimichi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "西郷隆盛",
+        "src": "saigou_takamori.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "木戸孝允",
+        "src": "kido_takayoshi.jpg"
       }
     ]
   }
