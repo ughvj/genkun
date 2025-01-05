@@ -1,157 +1,460 @@
 [
   {
+    "id": 1,
     "statement": "初代内閣総理大臣は誰？",
     "category": "choice",
     "options": [
       {
-        "src": "itou_hirobumi.jpg",
-        "caption": "伊藤博文",
-        "correct": true
-      },
-      {
-        "src": "ookubo_toshimichi.jpg",
+        "correct": false,
         "caption": "大久保利通",
-        "correct": false
+        "src": "ookubo_toshimichi.jpg"
       },
       {
-        "src": "saigou_takamori.jpg",
-        "caption": "西郷隆盛",
-        "correct": false
+        "correct": true,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
       },
       {
-        "src": "kido_takayoshi.jpg",
+        "correct": false,
         "caption": "木戸孝允",
-        "correct": false
+        "src": "kido_takayoshi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "西郷隆盛",
+        "src": "saigou_takamori.jpg"
       }
     ]
   },
   {
+    "id": 2,
     "statement": "「平民宰相」の異名を取った総理大臣は誰？",
     "category": "choice",
     "options": [
       {
-        "src": "terauchi_masatake.jpg",
+        "correct": false,
         "caption": "寺内正毅",
-        "correct": false
+        "src": "terauchi_masatake.jpg"
       },
       {
-        "src": "hara_takashi.jpg",
+        "correct": true,
         "caption": "原敬",
-        "correct": true
+        "src": "hara_takashi.jpg"
       },
       {
-        "src": "takahashi_korekiyo.jpg",
+        "correct": false,
         "caption": "高橋是清",
-        "correct": false
+        "src": "takahashi_korekiyo.jpg"
       },
       {
-        "src": "katou_tomosaburou.jpg",
+        "correct": false,
         "caption": "加藤友三郎",
-        "correct": false
+        "src": "katou_tomosaburou.jpg"
       }
     ]
   },
   {
-    "statement": "総理大臣就任が早い順に選択せよ",
-    "category": "order",
-    "options": [
-      {
-        "src": "itou_hirobumi.jpg",
-        "caption": "伊藤博文",
-        "correct": 1
-      },
-      {
-        "src": "kuroda_kiyotaka.jpg",
-        "caption": "黒田清隆",
-        "correct": 2
-      },
-      {
-        "src": "yamagata_aritomo.jpg",
-        "caption": "山縣有朋",
-        "correct": 3
-      },
-      {
-        "src": "matsukata_masayoshi.jpg",
-        "caption": "松方正義",
-        "correct": 4
-      }
-    ]
-  },
-  {
+    "id": 15,
     "statement": "「欧州情勢は複雑怪奇」との迷言で知られ、枢密院議長を2度務めたこともある第35代総理大臣は誰？",
     "category": "choice",
     "options": [
       {
-        "src": "hirota_kouki.jpg",
-        "caption": "廣田弘毅",
-        "correct": false
-      },
-      {
-        "src": "hiranuma_kiichirou.jpg",
-        "caption": "平沼騏一郎",
-        "correct": true
-      },
-      {
-        "src": "hayashi_senjuurou.jpg",
+        "correct": false,
         "caption": "林銑十郎",
-        "correct": false
+        "src": "hayashi_senjuurou.jpg"
       },
       {
-        "src": "konoe_fumimaro.jpg",
+        "correct": false,
         "caption": "近衛文麿",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "statement": "五・一五事件により、在職中に暗殺された総理大臣は誰？",
-    "category": "choice",
-    "options": [
-      {
-        "src": "wakatsuki_reijirou.jpg",
-        "caption": "若槻禮次郎",
-        "correct": false
+        "src": "konoe_fumimaro.jpg"
       },
       {
-        "src": "inukai_tsuyoshi.jpg",
-        "caption": "犬養毅",
-        "correct": true
+        "correct": true,
+        "caption": "平沼騏一郎",
+        "src": "hiranuma_kiichirou.jpg"
       },
       {
-        "src": "saitou_makoto.jpg",
-        "caption": "斎藤實",
-        "correct": false
-      },
-      {
-        "src": "okada_keisuke.jpg",
-        "caption": "岡田啓介",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "statement": "東京裁判においてA級戦犯(平和に対する罪)とされた唯一の文官でもある、第32代総理大臣は誰？",
-    "category": "choice",
-    "options": [
-      {
-        "src": "suzuki_kantarou.jpg",
-        "caption": "鈴木貫太郎",
-        "correct": false
-      },
-      {
-        "src": "toujou_hideki.jpg",
-        "caption": "東條英機",
-        "correct": false
-      },
-      {
-        "src": "konoe_fumimaro.jpg",
-        "caption": "近衛文麿",
-        "correct": false
-      },
-      {
-        "src": "hirota_kouki.jpg",
+        "correct": false,
         "caption": "廣田弘毅",
-        "correct": true
+        "src": "hirota_kouki.jpg"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "statement": "総理大臣就任が早い順に選択せよ",
+    "category": "order",
+    "options": [
+      {
+        "correct": 1,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": 2,
+        "caption": "黒田清隆",
+        "src": "kuroda_kiyotaka.jpg"
+      },
+      {
+        "correct": 3,
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
+      },
+      {
+        "correct": 4,
+        "caption": "松方正義",
+        "src": "matsukata_masayoshi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "statement": "ポツダム宣言受諾を決定した際の総理大臣は？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "東條英機",
+        "src": "toujou_hideki.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "吉田茂",
+        "src": "yoshida_shigeru.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "鈴木貫太郎",
+        "src": "suzuki_kantarou.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "近衛文麿",
+        "src": "konoe_fumimaro.jpg"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "statement": "「最後の元老」は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": true,
+        "caption": "西園寺公望",
+        "src": "saionji_kinmochi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "松方正義",
+        "src": "matsukata_masayoshi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "桂太郎",
+        "src": "katsura_tarou.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "statement": "軍部を経験していない総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "米内光政",
+        "src": "yonai_mitsumasa.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "小磯國昭",
+        "src": "koiso_kuniaki.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "阿部信行",
+        "src": "abe_nobuyuki.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "近衛文麿",
+        "src": "konoe_fumimaro.jpg"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "statement": "ロンドン海軍軍縮条約ののち持ち上がった、「統帥権干犯問題」に憤った右翼青年に襲撃された総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "田中義一",
+        "src": "tanaka_giichi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "加藤高明",
+        "src": "katou_takaaki.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "濱口雄幸",
+        "src": "hamaguchi_osachi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "若槻禮次郎",
+        "src": "wakatsuki_reijirou.jpg"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "statement": "大日本帝国憲法が発布された日に総理大臣だったのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "松方正義",
+        "src": "matsukata_masayoshi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "黒田清隆",
+        "src": "kuroda_kiyotaka.jpg"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "statement": "二・二六事件で襲撃されたが、奇跡的に生き残った当時の総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "犬養毅",
+        "src": "inukai_tsuyoshi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "斎藤実",
+        "src": "saitou_makoto.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "岡田啓介",
+        "src": "okada_keisuke.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "廣田弘毅",
+        "src": "hirota_kouki.jpg"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "statement": "第二次護憲運動により清浦奎吾内閣が倒れたあと、総理大臣に就任した順番は？",
+    "category": "order",
+    "options": [
+      {
+        "correct": 3,
+        "caption": "田中義一",
+        "src": "tanaka_giichi.jpg"
+      },
+      {
+        "correct": 2,
+        "caption": "若槻禮次郎",
+        "src": "wakatsuki_reijirou.jpg"
+      },
+      {
+        "correct": 1,
+        "caption": "加藤高明",
+        "src": "katou_takaaki.jpg"
+      },
+      {
+        "correct": 4,
+        "caption": "濱口雄幸",
+        "src": "hamaguchi_osachi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "statement": "「軍部大臣現役武官制」を最初に定めた総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "東條英機",
+        "src": "toujou_hideki.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "山本権兵衛",
+        "src": "yamamoto_gonbee.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "廣田弘毅",
+        "src": "hirota_kouki.jpg"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "statement": "早稲田大学を創設したのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "大隈重信",
+        "src": "ookuma_shigenobu.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "福沢諭吉",
+        "src": "fukuzawa_yukichi.jpg"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "statement": "慶應大学を創設したのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "福沢諭吉",
+        "src": "fukuzawa_yukichi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "大隈重信",
+        "src": "ookuma_shigenobu.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "statement": "岩倉使節団のメンバーだったのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "山縣有朋",
+        "src": "yamagata_aritomo.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "黒田清隆",
+        "src": "kuroda_kiyotaka.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "西郷隆盛",
+        "src": "saigou_takamori.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "津田梅子",
+        "src": "tsuda_umeko.jpg"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "statement": "1925年、普通選挙法を制定した総理大臣は誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": false,
+        "caption": "伊藤博文",
+        "src": "itou_hirobumi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "原敬",
+        "src": "hara_takashi.jpg"
+      },
+      {
+        "correct": true,
+        "caption": "加藤高明",
+        "src": "katou_takaaki.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "大隈重信",
+        "src": "ookuma_shigenobu.jpg"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "statement": "1926年、大正天皇が崩御したときに総理大臣だったのは誰？",
+    "category": "choice",
+    "options": [
+      {
+        "correct": true,
+        "caption": "若槻禮次郎",
+        "src": "wakatsuki_reijirou.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "加藤高明",
+        "src": "katou_takaaki.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "田中義一",
+        "src": "tanaka_giichi.jpg"
+      },
+      {
+        "correct": false,
+        "caption": "山本権兵衛",
+        "src": "yamamoto_gonbee.jpg"
       }
     ]
   }

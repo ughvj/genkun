@@ -68,7 +68,7 @@ const onClick = (event) => {
 }
 
 .image {
-  width: 60%;
+  width: 90%;
   height: auto;
   object-fit: contain;
 }
